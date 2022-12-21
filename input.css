@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
+.button-style-1 {
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+}
+.button-style-2 {
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full;
+}
+.button-style-3 {
+    @apply bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded;
+}
+.download-button {
+    @apply bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center
+}
 @tailwind utilities;
